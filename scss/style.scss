@@ -325,8 +325,29 @@ ul {
 }
 
 #footer-call-out {
-	background-color: $stephani-red;
+	background-color: darken( $stephani-red, 0% );
 	min-height: 60px;
+
+
+	.call-out {
+
+		padding-top: 2rem;
+		
+		text-align: center;
+		font-family: "Arial Black", sans-serif;
+		
+		.call-out-text {
+			font-size: 2rem;
+			padding-right: 2rem;
+			color: white;
+		}
+
+		.btn.btn-success {
+			margin-bottom: 1.2rem;
+			background-color: transparent;
+		}
+		
+	}
 }
 
 

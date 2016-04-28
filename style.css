@@ -5977,7 +5977,18 @@ ul li {
     color: #497F8C; }
 
 #footer-call-out {
-  background-color: #F15D61;
+  background-color: #f15d61;
   min-height: 60px; }
+  #footer-call-out .call-out {
+    padding-top: 2rem;
+    text-align: center;
+    font-family: "Arial Black", sans-serif; }
+    #footer-call-out .call-out .call-out-text {
+      font-size: 2rem;
+      padding-right: 2rem;
+      color: white; }
+    #footer-call-out .call-out .btn.btn-success {
+      margin-bottom: 1.2rem;
+      background-color: transparent; }
 
 /*# sourceMappingURL=style.css.map */

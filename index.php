@@ -139,7 +139,10 @@
 
 
 <section id="footer-call-out">
-	
+	<div class="call-out center-block">
+		<span class="call-out-text">READY TO ATTRACT MORE DREAM CLIENTS? </span>
+		<a class="btn btn-success" href="#">CLICK HERE</a>
+	</div>
 </section>
 	
 </main>
