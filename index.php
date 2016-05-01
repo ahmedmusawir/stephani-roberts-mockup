@@ -3,21 +3,65 @@
 <main class="content-wrapper">
 
 <section id="fp-block-1">
+
 	<article class="block-wrap">
 	
-		<div class="logo text-center">
-			<a href="#">
-				<img class="img-responsive center-block" src="_img/StephaniRobertsLogo.png" alt="">
-			</a>
-		</div>
+		<div class="logo-nav-block container">
+
+			<aside class="col-md-3 hidden-xs hidden-sm">
+				<div class="nav-block">
+					<div class="nav-top-red-block"></div>
+					<nav id="site-navigation" class="main-navigation hidden-xs hidden-sm" role="navigation">
+					   <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button> -->
+					   <div class="container">
+					      <div class="menu-menu-2-container">
+					         <ul id="primary-menu" class="menu">
+					            <li id="menu-item-399" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-399"><a href="#">Home</a></li>
+					            <li id="menu-item-400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400"><a href="#">About</a></li>
+					            <li id="menu-item-401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401"><a href="#">Packages</a></li>
+					            <li id="menu-item-402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-402"><a href="#">Blog</a></li>
+					            <li id="menu-item-403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-403"><a href="#">Contact</a></li>
+					            <li id="menu-item-405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-405"><a href="#">Free Guide</a></li>
+					         </ul>
+					      </div>
+					   </div>
+					</nav>
+				</div>	
+			</aside>
+
+			<aside class="col-md-9">
+				<div class="logo text-center">
+					<a href="#">
+						<img class="img-responsive center-block" src="_img/StephaniRobertsLogo-2.png" alt="">
+					</a>
+				</div>		
+			</aside>
+			
+		</div> <!-- END OF logo-nav-block -->
+
 		<div class="fp-header-img text-center">
 			<a href="#">
-				<img class="img-responsive center-block" src="_img/front-pg-header-img.png" alt="">
+				<img class="img-responsive center-block" src="_img/front-pg-header-img-3.png" alt="">
 			</a>
 		</div>		
 
 	</article>
 
+</section>
+
+<section id="fp-block-3">
+
+	<div class="container">
+		<article class="text-block">
+			<h4>I’ve fashioned my dream business around sharing what I know about smart, authentic communication….in between diaper changes, grocery store runs, and imperfectly navigating this thing called “balance.”</h4>
+			<h3>Running a business while running a family is <span class="special">no joke</span>, friends.</h3>
+			<h1>LET’S <span class="special">TALK </span>ABOUT IT.</h1>
+			<h4>Here in my corner of the digi-world, you’ll find stories, tips, and</h4>
+			<h4>inspiration on life, business, and all things communication.</h4>
+			<h3>So let’s start with <span class="special">THAT</span>.</h3>			
+		</article>
+	</div>
+	
 </section>
 
 <section id="fp-block-2">
@@ -39,20 +83,7 @@
 
 </section>
 
-<section id="fp-block-3">
 
-	<div class="container">
-		<article class="text-block">
-			<h4>I’ve fashioned my dream business around sharing what I know about smart, authentic communication….in between diaper changes, grocery store runs, and imperfectly navigating this thing called “balance.”</h4>
-			<h3>Running a business while running a family is <span class="special">no joke</span>, friends.</h3>
-			<h1>LET’S <span class="special">TALK </span>ABOUT IT.</h1>
-			<h4>Here in my corner of the digi-world, you’ll find stories, tips, and</h4>
-			<h4>inspiration on life, business, and all things communication.</h4>
-			<h3>So let’s start with <span class="special">THAT</span>.</h3>			
-		</article>
-	</div>
-	
-</section>
 
 <section id="fp-block-4">
 
@@ -73,7 +104,7 @@
 
 				<div class="text-block">
 
-					<h2 class="text-center">SOCIAL MEDIA STYLING TIPS</h2>
+					<h2 class="">SOCIAL MEDIA STYLING TIPS</h2>
 
 					<table>
 						

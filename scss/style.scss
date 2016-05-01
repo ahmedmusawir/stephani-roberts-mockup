@@ -87,11 +87,65 @@ ul {
 
 /**
  *
+ * Site Nav MOBILE
+ *
+ */
+.navbar {
+	background-color: darken( $stephani-green, 17% );
+	// display: none;
+}
+
+/**
+ *
+ * Site Nav [Desktop]
+ *
+ */
+
+
+.nav-block {
+	// float: left;
+	// margin-left: 30rem;
+	width: 100%;
+	border: .6rem solid $stephani-green;
+	@include border-bottom-radius(35px);
+
+	@media ( max-width: 1199px ) {
+
+	}
+
+	.nav-top-red-block {
+		min-height: 4rem;
+		background-color: $stephani-red;
+	} 	
+	#site-navigation {
+
+		.container {
+			// padding-left: 4rem;
+
+			#primary-menu {
+
+				li {
+
+					a {
+						text-align: center;
+						font-size: 3rem;
+						@media ( max-width: 1199px ) {
+							font-size: 2rem;
+						}	
+					}
+				}
+			}
+		}
+	}	
+}
+
+/**
+ *
  * Front Page Styles: fp = front page
  *
  */
 #fp-block-1 {
-	min-height: 900px;
+	// min-height: 500px;
 
 	@media ( max-width: 600px ) {
 		min-height: 500px;
@@ -103,8 +157,8 @@ ul {
 	background-repeat: no-repeat;
 
 	.block-wrap {
-		@include background(linear-gradient( rgba( lighten( $stephani-green, 70% ), .85 ), rgba( darken( black, 0%), 1 ) ) left repeat !important) ;
-		min-height: 900px;
+		@include background(linear-gradient( rgba( lighten( white, 70% ), .9 ), rgba( darken( white, 0%), 1 ) ) left repeat !important) ;
+		// min-height: 900px;
 
 	@media ( max-width: 600px ) {
 		min-height: 500px;
@@ -113,6 +167,8 @@ ul {
 
 		.logo {
 			padding-top: 8rem;
+		// border: 1px solid red;
+
 		}
 
 	}

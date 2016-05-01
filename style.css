@@ -5835,11 +5835,38 @@ ul li {
 
 /**
  *
+ * Site Nav MOBILE
+ *
+ */
+.navbar {
+  background-color: #2b4b53; }
+
+/**
+ *
+ * Site Nav [Desktop]
+ *
+ */
+.nav-block {
+  width: 100%;
+  border: 0.6rem solid #497F8C;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px; }
+  .nav-block .nav-top-red-block {
+    min-height: 4rem;
+    background-color: #F15D61; }
+  .nav-block #site-navigation .container #primary-menu li a {
+    text-align: center;
+    font-size: 3rem; }
+    @media (max-width: 1199px) {
+      .nav-block #site-navigation .container #primary-menu li a {
+        font-size: 2rem; } }
+
+/**
+ *
  * Front Page Styles: fp = front page
  *
  */
 #fp-block-1 {
-  min-height: 900px;
   background-image: url("_img/front-pg-header-bg.jpg");
   background-position: right;
   background-repeat: no-repeat; }
@@ -5847,9 +5874,8 @@ ul li {
     #fp-block-1 {
       min-height: 500px; } }
   #fp-block-1 .block-wrap {
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.85), black) left repeat !important;
-    background: linear-gradient(rgba(255, 255, 255, 0.85), black) left repeat !important;
-    min-height: 900px; }
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), white) left repeat !important;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), white) left repeat !important; }
     @media (max-width: 600px) {
       #fp-block-1 .block-wrap {
         min-height: 500px; } }

@@ -17,7 +17,7 @@
 		<![endif]-->
 	</head>
 	<body>
-	<header id="header" class="">
+	<header id="header" class="visible-xs visible-sm">
 
 	<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -49,3 +49,24 @@
 </nav>
 		
 	</header><!-- /header -->
+
+<!--  <ul id="main-nav">
+   <li class="menu-item">Parent Menu Item</li>
+      <ul id="sub-menu">
+            <li class="sub-menu-item">Parent Menu Item</li>
+            <li class="sub-menu-item">Parent Menu Item</li>
+            <li class="sub-menu-item">Parent Menu Item</li>
+      </ul>
+   <li class="menu-item">Parent Menu Item</li>
+      <ul id="sub-menu">
+            <li class="sub-menu-item">Parent Menu Item</li>
+            <li class="sub-menu-item">Parent Menu Item</li>
+            <li class="sub-menu-item">Parent Menu Item</li>
+      </ul>
+   <li class="menu-item">Parent Menu Item</li>
+      <ul id="sub-menu">
+            <li class="sub-menu-item">Parent Menu Item</li>
+            <li class="sub-menu-item">Parent Menu Item</li>
+            <li class="sub-menu-item">Parent Menu Item</li>
+      </ul>
+</ul>  -->
