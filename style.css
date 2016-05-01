@@ -5870,15 +5870,9 @@ ul li {
   background-image: url("_img/front-pg-header-bg.jpg");
   background-position: right;
   background-repeat: no-repeat; }
-  @media (max-width: 600px) {
-    #fp-block-1 {
-      min-height: 500px; } }
   #fp-block-1 .block-wrap {
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), white) left repeat !important;
     background: linear-gradient(rgba(255, 255, 255, 0.9), white) left repeat !important; }
-    @media (max-width: 600px) {
-      #fp-block-1 .block-wrap {
-        min-height: 500px; } }
     #fp-block-1 .block-wrap .logo {
       padding-top: 8rem; }
 
