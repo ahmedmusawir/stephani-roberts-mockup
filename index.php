@@ -8,28 +8,7 @@
 	
 		<div class="logo-nav-block container">
 
-			<aside class="col-md-3 hidden-xs hidden-sm">
-				<div class="nav-block">
-					<div class="nav-top-red-block"></div>
-					<nav id="site-navigation" class="main-navigation hidden-xs hidden-sm" role="navigation">
-					   <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button> -->
-					   <div class="container">
-					      <div class="menu-menu-2-container">
-					         <ul id="primary-menu" class="menu">
-					            <li id="menu-item-399" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-399"><a href="#">Home</a></li>
-					            <li id="menu-item-400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-400"><a href="#">About</a></li>
-					            <li id="menu-item-401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-401"><a href="#">Packages</a></li>
-					            <li id="menu-item-402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-402"><a href="#">Blog</a></li>
-					            <li id="menu-item-403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-403"><a href="#">Contact</a></li>
-					            <li id="menu-item-405" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-405"><a href="#">Free Guide</a></li>
-					         </ul>
-					      </div>
-					   </div>
-					</nav>
-				</div>	
-			</aside>
-
-			<aside class="col-md-9">
+			<aside class="col-md-12">
 				<div class="logo text-center">
 					<a href="#">
 						<img class="img-responsive center-block" src="_img/StephaniRobertsLogo-2.png" alt="">
@@ -41,8 +20,13 @@
 
 		<div class="fp-header-img text-center">
 			<a href="#">
-				<img class="img-responsive center-block" src="_img/front-pg-header-img-3.png" alt="">
+				<img class="img-responsive center-block" src="_img/front-pg-header-img-4.png" alt="">
 			</a>
+			<aside id="top-header-btn-holder"  class="top-btn-holder">
+				
+				<a href="#"  class="btn btn-primary btn-lg">Click Here for my FREE<br> Social Media Marketing Guide</a>
+				
+			</aside>
 		</div>		
 
 	</article>
@@ -93,7 +77,7 @@
 
 			<article class="social-left">
 
-				<img class="img-responsive" src="_img/fp-blk-4-steph-jump.jpg" alt="">
+				<img class="img-responsive" src="_img/fp-blk-4-steph-face.png" alt="">
 
 			</article>
 

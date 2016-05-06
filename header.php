@@ -17,7 +17,8 @@
 		<![endif]-->
 	</head>
 	<body>
-	<header id="header" class="visible-xs visible-sm">
+  <!-- <header id="header" class="visible-xs visible-sm"> -->
+	<header id="header" class="">
 
 	<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -29,22 +30,32 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Stephani Roberts</a>
+      <a class="hide navbar-brand" href="#">Stephani Roberts</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-left">
         <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
         <li><a href="#">ABOUT</a></li>
-        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">PACKAGES</a></li>
         <li><a href="#">BLOG</a></li>
         <li><a href="#">CONTACT</a></li>
+        <li><a href="#">FREE CONSULT</a></li>
          
       </ul>
 
+      <ul class="top-nav-social navbar-right">
+          <li><a href="#"><i class="fa fa-facebook"></i> </a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i> </a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i> </a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i> </a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i> </a></li>
+          <li><a href="#"><i class="fa fa-pinterest"></i> </a></li>
+      </ul>      
      
     </div><!-- /.navbar-collapse -->
+
   </div><!-- /.container-fluid -->
 </nav>
 		

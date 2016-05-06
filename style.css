@@ -5840,27 +5840,32 @@ ul li {
  */
 .navbar {
   background-color: #2b4b53; }
+  .navbar #bs-example-navbar-collapse-1 .navbar-nav li a {
+    font-size: 2.2rem;
+    font-weight: 300; }
+
+/**
+ *
+ * Top Nav Social
+ *
+ */
+.top-nav-social {
+  padding-top: 1.3rem;
+  padding-right: 4rem; }
+  .top-nav-social li {
+    display: inline-block;
+    padding-left: 1rem; }
+    .top-nav-social li a {
+      font-size: 2rem;
+      color: #d5d5d5; }
+      .top-nav-social li a:hover {
+        color: #f58c8f; }
 
 /**
  *
  * Site Nav [Desktop]
  *
  */
-.nav-block {
-  width: 100%;
-  border: 0.6rem solid #497F8C;
-  border-bottom-right-radius: 35px;
-  border-bottom-left-radius: 35px; }
-  .nav-block .nav-top-red-block {
-    min-height: 4rem;
-    background-color: #F15D61; }
-  .nav-block #site-navigation .container #primary-menu li a {
-    text-align: center;
-    font-size: 3rem; }
-    @media (max-width: 1199px) {
-      .nav-block #site-navigation .container #primary-menu li a {
-        font-size: 2rem; } }
-
 /**
  *
  * Front Page Styles: fp = front page
@@ -5873,6 +5878,42 @@ ul li {
   #fp-block-1 .block-wrap {
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), white) left repeat !important;
     background: linear-gradient(rgba(255, 255, 255, 0.9), white) left repeat !important; }
+    #fp-block-1 .block-wrap .fp-header-img {
+      position: relative; }
+      #fp-block-1 .block-wrap .fp-header-img .top-btn-holder {
+        position: absolute;
+        top: 60%;
+        right: 60%; }
+        @media (max-width: 1400px) {
+          #fp-block-1 .block-wrap .fp-header-img .top-btn-holder {
+            right: 65%; } }
+        @media (max-width: 767px) {
+          #fp-block-1 .block-wrap .fp-header-img .top-btn-holder {
+            right: 60%;
+            top: 250px; } }
+        @media (max-width: 660px) {
+          #fp-block-1 .block-wrap .fp-header-img .top-btn-holder {
+            top: 55%; } }
+        @media (max-width: 340px) {
+          #fp-block-1 .block-wrap .fp-header-img .top-btn-holder {
+            right: 55%; } }
+        #fp-block-1 .block-wrap .fp-header-img .top-btn-holder .btn-primary {
+          width: 110%;
+          height: 9rem;
+          padding: 2rem;
+          border-radius: 20px; }
+          @media (max-width: 660px) {
+            #fp-block-1 .block-wrap .fp-header-img .top-btn-holder .btn-primary {
+              width: 100%;
+              padding: 1rem;
+              height: 100%;
+              font-size: 1.5rem; } }
+          @media (max-width: 634px) {
+            #fp-block-1 .block-wrap .fp-header-img .top-btn-holder .btn-primary {
+              font-size: 1rem; } }
+          @media (max-width: 400px) {
+            #fp-block-1 .block-wrap .fp-header-img .top-btn-holder .btn-primary {
+              font-size: .8rem; } }
     #fp-block-1 .block-wrap .logo {
       padding-top: 8rem; }
 
